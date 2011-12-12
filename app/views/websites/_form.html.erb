@@ -1,0 +1,33 @@
+<%= form_for(@website) do |f| %>
+  <% if @website.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@website.errors.count, "error") %> prohibited this website from being saved:</h2>
+
+      <ul>
+      <% @website.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+1)Input either [video][audio][games][programs][torrents] for type<br />
+2)Type only the base url www.NAME.com (no back slash at the end)
+
+  <div class="field">
+    <h1><%= f.label :name %></h1><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <h1><%= f.label :url %></h1><br />
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <h1><%= f.label :kind %></h1><br />
+    <%= f.text_field :kind %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

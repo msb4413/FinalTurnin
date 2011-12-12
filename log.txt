@@ -1,0 +1,620 @@
+2011-12-10T23:33:14+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:15:33:14 -0800] "GET /favicon.ico HTTP/1.1" 200 2659 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-10T23:33:14+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:15:33:14 -0800] "GET /favicon.ico HTTP/1.1" 200 2659 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-10T23:33:14+00:00 heroku[router]: Blank App -> GET morning-moon-6199.heroku.com/ dyno= queue= wait= service= status=200 bytes=
+2011-12-10T23:33:14+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:15:33:14 -0800] "GET / HTTP/1.1" 200 2659 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-10T23:33:04+00:00 heroku[api]: Add-on add logging:basic by shadowed666shadowed@yahoo.com
+2011-12-10T23:33:04+00:00 heroku[api]: Release v1 created by shadowed666shadowed@yahoo.com
+2011-12-10T23:34:57+00:00 heroku[web.1]: Starting process with command `thin -p 57783 -e production -R /home/heroku_rack/heroku.ru start`
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `block in eager_load!'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `eager_load!'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `instance_exec'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:55:in `block in run_initializers'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `run_initializers'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/railtie/configurable.rb:30:in `method_missing'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `instance_eval'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `each'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `each'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `initialize'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:120:in `new'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `instance_eval'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `initialize'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/application/finisher.rb:51:in `block in <module:Finisher>'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:30:in `run'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/initializable.rb:54:in `each'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /home/heroku_rack/heroku.ru:1:in `new'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /usr/ruby1.9.2/lib/ruby/gems/1.9.1/gems/thin-1.2.6/lib/thin/runner.rb:177:in `run_command'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /usr/ruby1.9.2/bin/thin:19:in `load'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/application.rb:96:in `initialize!'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from config.ru:3:in `block (3 levels) in <main>'
+2011-12-10T23:35:01+00:00 heroku[web.1]: Process exited
+2011-12-10T23:35:01+00:00 app[web.1]: /app/app/models/website.rb:22:in `<top (required)>': undefined local variable or method `c' for main:Object (NameError)
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `each'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `each'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `constantize'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/core_ext/string/inflections.rb:43:in `constantize'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:128:in `inherited'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/abstract_controller/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/railties/paths.rb:7:in `block (2 levels) in with'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/app/controllers/websites_controller.rb:1:in `<top (required)>'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:302:in `depend_on'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:214:in `require_dependency'
+2011-12-10T23:35:01+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:417:in `block (2 levels) in eager_load!'
+2011-12-10T23:37:14+00:00 app[rake.1]: Starting process with command `bundle exec rake db:migrate`
+2011-12-10T23:33:10+00:00 heroku[api]: Release v3 created by shadowed666shadowed@yahoo.com
+2011-12-10T23:33:10+00:00 heroku[api]: Add-on update shared-database
+2011-12-10T23:37:19+00:00 heroku[rake.1]: Process exited
+2011-12-10T23:33:14+00:00 heroku[router]: Blank App -> GET morning-moon-6199.heroku.com/favicon.ico dyno= queue= wait= service= status=200 bytes=
+2011-12-10T23:33:14+00:00 heroku[router]: Blank App -> GET morning-moon-6199.heroku.com/favicon.ico dyno= queue= wait= service= status=200 bytes=
+2011-12-10T23:33:33+00:00 heroku[slugc]: Slug compilation started
+2011-12-10T23:39:33+00:00 heroku[router]: Error H10 (App crashed) -> GET morning-moon-6199.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-10T23:34:46+00:00 heroku[slugc]: Slug compilation finished
+2011-12-10T23:34:45+00:00 heroku[api]: Deploy 4dfa3af by shadowed666shadowed@yahoo.com
+2011-12-10T23:34:45+00:00 heroku[api]: Release v4 created by shadowed666shadowed@yahoo.com
+2011-12-10T23:35:02+00:00 heroku[web.1]: State changed from starting to crashed
+2011-12-10T23:37:12+00:00 heroku[rake.1]: State changed from created to starting
+2011-12-10T23:37:14+00:00 app[rake.1]: Awaiting client
+2011-12-10T23:37:15+00:00 heroku[rake.1]: State changed from starting to up
+2011-12-10T23:40:55+00:00 heroku[slugc]: Slug compilation started
+2011-12-10T23:42:15+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=254ms status=500 bytes=728
+2011-12-10T23:42:06+00:00 heroku[api]: Release v5 created by shadowed666shadowed@yahoo.com
+2011-12-10T23:42:07+00:00 heroku[slugc]: Slug compilation finished
+2011-12-10T23:42:06+00:00 heroku[api]: Deploy c778bf0 by shadowed666shadowed@yahoo.com
+2011-12-10T23:42:06+00:00 heroku[web.1]: State changed from crashed to created
+2011-12-10T23:42:06+00:00 heroku[web.1]: State changed from created to starting
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:18 -0800
+2011-12-11T00:29:18+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:18+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:18+00:00 app[web.1]: Completed 500 Internal Server Error in 43ms
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:18+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:18+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:18+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:18+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:18+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:18+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:18+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:18+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:18+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:18+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=79ms status=500 bytes=728
+2011-12-11T00:29:18+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:18 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:18 -0800
+2011-12-11T00:29:18+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:18+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:18+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=57ms status=500 bytes=728
+2011-12-11T00:29:18+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:18 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:18+00:00 app[web.1]: Completed 500 Internal Server Error in 44ms
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:18+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:18+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:18+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:18+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:18+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:18+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:18+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=55ms status=500 bytes=728
+2011-12-11T00:29:18+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:18 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:18+00:00 app[web.1]: Completed 500 Internal Server Error in 46ms
+2011-12-11T00:29:18+00:00 app[web.1]: 
+2011-12-11T00:29:18+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:18+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 40ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:19+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:19+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:19+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:19+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 77ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=89ms status=500 bytes=728
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:19+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:19+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:19+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:19+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:19 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:19+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:19+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=63ms status=500 bytes=728
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 40ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:19+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:19+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:19+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:19 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:19+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:19+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=50ms status=500 bytes=728
+2011-12-11T00:29:19+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:19 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 42ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 73ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:19+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:19+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:19+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:19+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:19 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:19+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=117ms status=500 bytes=728
+2011-12-11T00:29:19+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:19+00:00 app[web.1]: Completed 500 Internal Server Error in 46ms
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:19+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:19+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:19+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:19+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:19+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:19+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=59ms status=500 bytes=728
+2011-12-11T00:29:19+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:19+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:19+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:19+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:19+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:19 -0800] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: 
+2011-12-11T00:29:19+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:19 -0800
+2011-12-11T00:29:19+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:19+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 73ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=84ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=95ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=64ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 40ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 41ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=54ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=79ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 68ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 44ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=56ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:20 -0800
+2011-12-11T00:29:20+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:20+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:20+00:00 app[web.1]: Completed 500 Internal Server Error in 79ms
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:20+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:20+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:20+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:20+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:20+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:20+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:20+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:20+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 app[web.1]: 
+2011-12-11T00:29:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=100ms status=500 bytes=728
+2011-12-11T00:29:20+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:20 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:21 -0800
+2011-12-11T00:29:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:21+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:21 -0800] "GET / HTTP/1.1" 499 0 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]: Completed 500 Internal Server Error in 103ms
+2011-12-11T00:29:21+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=114ms status=500 bytes=728
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:21+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:21+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:21+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:21+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:21+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:21+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:21 -0800
+2011-12-11T00:29:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:21+00:00 app[web.1]: Completed 500 Internal Server Error in 40ms
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:21+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:21+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:21+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:21+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:21+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=47ms status=500 bytes=728
+2011-12-11T00:29:21+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:21+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:21+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:21+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:21 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:21 -0800
+2011-12-11T00:29:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:21+00:00 app[web.1]: Completed 500 Internal Server Error in 39ms
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:21+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:21+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:21+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:21+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:21+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:21+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:21+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=47ms status=500 bytes=728
+2011-12-11T00:29:21+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:21 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:21 -0800
+2011-12-11T00:29:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:21+00:00 app[web.1]: Completed 500 Internal Server Error in 73ms
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:21+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:21+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:21+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:21+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:21+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:21 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:21+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:21+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:21+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=82ms status=500 bytes=728
+2011-12-11T00:29:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: Started GET "/" for 129.115.29.179 at 2011-12-10 16:29:21 -0800
+2011-12-11T00:29:21+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:29:21+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.0ms)
+2011-12-11T00:29:21+00:00 app[web.1]: Completed 500 Internal Server Error in 53ms
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: ActionView::Template::Error (Could not find a JavaScript runtime. See https://github.com/sstephenson/execjs for a list of available runtimes.
+2011-12-11T00:29:21+00:00 app[web.1]:   (in /app/app/assets/javascripts/pages.js.coffee)):
+2011-12-11T00:29:21+00:00 app[web.1]:     3: 	<head>
+2011-12-11T00:29:21+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=62ms status=500 bytes=728
+2011-12-11T00:29:21+00:00 app[web.1]:     4: 		<title><%= @title %></title>
+2011-12-11T00:29:21+00:00 app[web.1]:     5: 		<%= stylesheet_link_tag    "cssmainpage" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     6: 		<%= javascript_include_tag "application" %>
+2011-12-11T00:29:21+00:00 app[web.1]:     7: 		<%= csrf_meta_tags %>
+2011-12-11T00:29:21+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:29:21 -0800] "GET / HTTP/1.1" 500 728 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:29:21+00:00 app[web.1]:     8:    </head>
+2011-12-11T00:29:21+00:00 app[web.1]:     9:    <body>
+2011-12-11T00:29:21+00:00 app[web.1]:   app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__3611426618192092181_29756280'
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: 
+2011-12-11T00:29:21+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:38:09+00:00 heroku[slugc]: Slug compilation started
+2011-12-11T00:39:32+00:00 heroku[api]: Deploy 8e74fda by shadowed666shadowed@yahoo.com
+2011-12-11T00:39:32+00:00 heroku[api]: Release v6 created by shadowed666shadowed@yahoo.com
+2011-12-11T00:39:32+00:00 heroku[web.1]: State changed from created to starting
+2011-12-11T00:39:32+00:00 heroku[slugc]: Slug compilation finished
+2011-12-11T00:39:34+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-12-11T00:39:34+00:00 app[web.1]: >> Stopping ...
+2011-12-11T00:39:35+00:00 heroku[web.1]: Process exited
+2011-12-11T00:39:41+00:00 heroku[web.1]: State changed from starting to up
+2011-12-11T00:40:09+00:00 heroku[slugc]: Slug compilation started
+2011-12-11T00:41:30+00:00 heroku[api]: Deploy 4e2bd41 by shadowed666shadowed@yahoo.com
+2011-12-11T00:41:30+00:00 heroku[api]: Release v7 created by shadowed666shadowed@yahoo.com
+2011-12-11T00:41:30+00:00 heroku[web.1]: State changed from up to bouncing
+2011-12-11T00:41:30+00:00 heroku[web.1]: State changed from bouncing to created
+2011-12-11T00:41:30+00:00 heroku[web.1]: State changed from created to starting
+2011-12-11T00:41:32+00:00 heroku[web.1]: Stopping process with SIGTERM
+2011-12-11T00:41:32+00:00 app[web.1]: >> Stopping ...
+2011-12-11T00:41:33+00:00 heroku[web.1]: Process exited
+2011-12-11T00:41:34+00:00 heroku[web.1]: Starting process with command `thin -p 27040 -e production -R /home/heroku_rack/heroku.ru start`
+2011-12-11T00:41:38+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2011-12-11T00:41:38+00:00 app[web.1]: >> Maximum connections set to 1024
+2011-12-11T00:41:38+00:00 app[web.1]: >> Listening on 0.0.0.0:27040, CTRL+C to stop
+2011-12-11T00:41:39+00:00 heroku[web.1]: State changed from starting to up
+2011-12-11T00:43:29+00:00 app[web.1]:   Processing by PagesController#home as HTML
+2011-12-11T00:43:29+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (21.5ms)
+2011-12-11T00:43:32+00:00 app[web.1]: Rendered layouts/_title.html.erb (0.3ms)
+2011-12-11T00:43:32+00:00 app[web.1]: Rendered layouts/_login.html.erb (68.0ms)
+2011-12-11T00:43:32+00:00 app[web.1]: Rendered layouts/_sidebar.html.erb (0.5ms)
+2011-12-11T00:43:32+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.6ms)
+2011-12-11T00:43:32+00:00 app[web.1]: Completed 200 OK in 3102ms (Views: 3042.4ms | ActiveRecord: 59.7ms)
+2011-12-11T00:43:32+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T00:43:32+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=3164ms status=200 bytes=997
+2011-12-11T00:43:32+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:43:32 -0800] "GET / HTTP/1.1" 200 997 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:43:32+00:00 app[web.1]: 
+2011-12-11T00:43:32+00:00 app[web.1]: 
+2011-12-11T00:43:32+00:00 app[web.1]: Started GET "/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" for 129.115.29.179 at 2011-12-10 16:43:32 -0800
+2011-12-11T00:43:32+00:00 app[web.1]: cache: [GET /assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css] miss, store
+2011-12-11T00:43:32+00:00 heroku[router]: GET morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css dyno=web.1 queue=0 wait=0ms service=5ms status=200 bytes=1602
+2011-12-11T00:43:32+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:43:32 -0800] "GET /assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css HTTP/1.1" 200 564 "http://morning-moon-6199.heroku.com/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:43:32+00:00 app[web.1]: 
+2011-12-11T00:43:32+00:00 app[web.1]: 
+2011-12-11T00:43:32+00:00 app[web.1]: Started GET "/assets/application-ae30e133eabbb10d9464189d3fb71e25.js" for 129.115.29.179 at 2011-12-10 16:43:32 -0800
+2011-12-11T00:43:32+00:00 app[web.1]: cache: [GET /assets/application-ae30e133eabbb10d9464189d3fb71e25.js] miss, store
+2011-12-11T00:43:33+00:00 heroku[router]: GET morning-moon-6199.heroku.com/assets/application-ae30e133eabbb10d9464189d3fb71e25.js dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=99533
+2011-12-11T00:43:33+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:43:33 -0800] "GET /assets/application-ae30e133eabbb10d9464189d3fb71e25.js HTTP/1.1" 200 36057 "http://morning-moon-6199.heroku.com/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:43:33+00:00 heroku[router]: GET morning-moon-6199.heroku.com/images/bg.jpg dyno=web.1 queue=0 wait=0ms service=20ms status=404 bytes=728
+2011-12-11T00:43:33+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:16:43:33 -0800] "GET /images/bg.jpg HTTP/1.1" 404 728 "http://morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T00:43:33+00:00 app[web.1]: 
+2011-12-11T00:43:33+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+2011-12-11T00:43:33+00:00 app[web.1]:   
+2011-12-11T00:43:33+00:00 app[web.1]: 
+2011-12-11T00:43:33+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: Started GET "/images/bg.jpg" for 129.115.29.179 at 2011-12-10 17:15:11 -0800
+2011-12-11T01:15:11+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+2011-12-11T01:15:11+00:00 app[web.1]:   
+2011-12-11T01:15:11+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: 
+2011-12-11T01:15:11+00:00 app[web.1]: cache: [GET /images/bg.jpg] miss
+2011-12-11T01:15:11+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:11 -0800] "GET /images/bg.jpg HTTP/1.1" 404 728 "http://morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:15+00:00 heroku[router]: GET morning-moon-6199.heroku.com/ dyno=web.1 queue=0 wait=0ms service=13ms status=200 bytes=997
+2011-12-11T01:15:15+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:15 -0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:15+00:00 app[web.1]: Rendered pages/home.html.erb within layouts/application (0.2ms)
+2011-12-11T01:15:15+00:00 app[web.1]: Rendered layouts/_title.html.erb (0.0ms)
+2011-12-11T01:15:15+00:00 app[web.1]: cache: [GET /] miss
+2011-12-11T01:15:15+00:00 app[web.1]: cache: [GET /assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css] fresh
+2011-12-11T01:15:15+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:15 -0800] "GET /assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css HTTP/1.1" 304 0 "http://morning-moon-6199.heroku.com/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:16+00:00 app[web.1]: cache: [GET /assets/application-ae30e133eabbb10d9464189d3fb71e25.js] fresh
+2011-12-11T01:15:16+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:16 -0800] "GET /assets/application-ae30e133eabbb10d9464189d3fb71e25.js HTTP/1.1" 304 0 "http://morning-moon-6199.heroku.com/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:16+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:16 -0800] "GET /images/bg.jpg HTTP/1.1" 404 728 "http://morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:25+00:00 app[web.1]: 
+2011-12-11T01:15:25+00:00 app[web.1]: 
+2011-12-11T01:15:25+00:00 app[web.1]: Started GET "/allweb" for 129.115.29.179 at 2011-12-10 17:15:25 -0800
+2011-12-11T01:15:25+00:00 app[web.1]:   Processing by WebsitesController#index as HTML
+2011-12-11T01:15:25+00:00 app[web.1]: Rendered websites/index.html.erb within layouts/application (1.0ms)
+2011-12-11T01:15:25+00:00 app[web.1]: Rendered layouts/_title.html.erb (0.0ms)
+2011-12-11T01:15:26+00:00 app[web.1]: Rendered layouts/_login.html.erb (60.0ms)
+2011-12-11T01:15:26+00:00 app[web.1]: Rendered layouts/_sidebar.html.erb (0.8ms)
+2011-12-11T01:15:26+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.3ms)
+2011-12-11T01:15:26+00:00 app[web.1]: Completed 200 OK in 71ms (Views: 8.5ms | ActiveRecord: 61.5ms)
+2011-12-11T01:15:26+00:00 app[web.1]: cache: [GET /allweb] miss
+2011-12-11T01:15:26+00:00 heroku[router]: GET morning-moon-6199.heroku.com/allweb dyno=web.1 queue=0 wait=0ms service=80ms status=200 bytes=1144
+2011-12-11T01:15:26+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:26 -0800] "GET /allweb HTTP/1.1" 200 628 "http://morning-moon-6199.heroku.com/" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:15:26+00:00 app[web.1]: 
+2011-12-11T01:15:26+00:00 app[web.1]: 
+2011-12-11T01:15:26+00:00 app[web.1]: Started GET "/images/bg.jpg" for 129.115.29.179 at 2011-12-10 17:15:26 -0800
+2011-12-11T01:15:26+00:00 app[web.1]: 
+2011-12-11T01:15:26+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+2011-12-11T01:15:26+00:00 app[web.1]:   
+2011-12-11T01:15:26+00:00 app[web.1]: 
+2011-12-11T01:15:26+00:00 app[web.1]: 
+2011-12-11T01:15:26+00:00 app[web.1]: cache: [GET /images/bg.jpg] miss
+2011-12-11T01:15:26+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:15:26 -0800] "GET /images/bg.jpg HTTP/1.1" 404 728 "http://morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: Started GET "/signup" for 129.115.29.179 at 2011-12-10 17:16:20 -0800
+2011-12-11T01:16:20+00:00 app[web.1]:   Processing by UsersController#new as HTML
+2011-12-11T01:16:20+00:00 app[web.1]: Rendered users/new.html.erb within layouts/application (19.5ms)
+2011-12-11T01:16:20+00:00 app[web.1]: Rendered layouts/_title.html.erb (0.0ms)
+2011-12-11T01:16:20+00:00 app[web.1]: Rendered layouts/_login.html.erb (3.8ms)
+2011-12-11T01:16:20+00:00 app[web.1]: Rendered layouts/_sidebar.html.erb (0.3ms)
+2011-12-11T01:16:20+00:00 app[web.1]: Rendered layouts/_footer.html.erb (0.3ms)
+2011-12-11T01:16:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:16:20 -0800] "GET /signup HTTP/1.1" 200 812 "http://morning-moon-6199.heroku.com/allweb" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:16:20+00:00 app[web.1]: Completed 200 OK in 32ms (Views: 19.9ms | ActiveRecord: 12.0ms)
+2011-12-11T01:16:20+00:00 app[web.1]: cache: [GET /signup] miss
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: Started GET "/images/bg.jpg" for 129.115.29.179 at 2011-12-10 17:16:20 -0800
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/images/bg.jpg"):
+2011-12-11T01:16:20+00:00 app[web.1]:   
+2011-12-11T01:16:20+00:00 heroku[router]: GET morning-moon-6199.heroku.com/images/bg.jpg dyno=web.1 queue=0 wait=0ms service=6ms status=404 bytes=728
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 app[web.1]: 
+2011-12-11T01:16:20+00:00 heroku[nginx]: 129.115.29.179 - - [10/Dec/2011:17:16:20 -0800] "GET /images/bg.jpg HTTP/1.1" 404 728 "http://morning-moon-6199.heroku.com/assets/cssmainpage-1b0d2e5cb144423265bd4f695f9fb4cf.css" "Mozilla/5.0 (Windows NT 5.1; rv:6.0) Gecko/20100101 Firefox/6.0" morning-moon-6199.heroku.com
+2011-12-11T01:16:20+00:00 app[web.1]: cache: [GET /images/bg.jpg] miss

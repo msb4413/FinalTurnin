@@ -1,0 +1,17 @@
+<h1>WELCOME</h1>
+<h4> Please fill out the information below </h4>
+<%= form_for(@user) do |f| %>
+  <div class="field" >
+    <%= f.label :name %> 
+    <%= f.text_field :name %>
+  </div>
+  
+  <div class="field" >
+    <%= f.label :email %> 
+    <%= f.text_field :email %>
+  </div>
+  
+  <div class="actions" >
+    <%= f.submit "Sign up" %>
+  </div>
+<% end %>

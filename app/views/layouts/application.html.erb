@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= @title %></title>
+		<%= stylesheet_link_tag    "cssmainpage" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+   </head>
+   <body>
+<div id="title"><%= render 'layouts/title' %><div id="login"><%= render 'layouts/login' %></div></div>
+<div id="temp">
+<div id="blank"></div>
+<div id="sidebar"><%= render 'layouts/sidebar' %></div>
+<div id="main"><%= yield %></div>
+<div id="tools"></div>
+<div id="footer"><%= render 'layouts/footer' %></div>
+   </body>
+</html>

@@ -1,0 +1,22 @@
+<h1>Listing ratings</h1>
+
+<table>
+  <tr>
+    <th>Website</th>
+    <th>User</th>
+    <th>Score</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ratings.each do |rating| %>
+  <tr>
+    <td><%= rating.website_id %></td>
+    <td><%= rating.user_id %></td>
+    <td><%= rating.score %></td>
+    <td><%= link_to 'Destroy', rating, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+

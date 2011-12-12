@@ -1,0 +1,12 @@
+<login>
+ <nav>
+			<% if signed_in? %>
+			  <%= link_to "Profile", current_user %> <br />
+			  <%= link_to "Sign out", signout_path %><br />
+			  <%= link_to "New Website", createweb_path %> <br />
+			<% else %>
+			   <%= link_to "Sign in", signin_path %>
+			   <%= link_to "Register", signup_path %>
+			<% end %>
+ </nav>
+</login>

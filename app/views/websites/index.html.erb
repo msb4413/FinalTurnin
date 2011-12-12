@@ -1,0 +1,27 @@
+<h1>Listing websites</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @websites.each do |website| %>
+  <tr>
+    <td><%= link_to website.name, website %></td>
+    <td><%= website.url %></td>
+    <td><%= website.kind %></td>
+    <% if signed_in? %>
+    <td><%= link_to 'Destroy', website, confirm: 'Are you sure?', method: :delete %></td>
+    <% end %>
+  </tr>
+<% end %>
+</table>
+
+<br />
+    <% if signed_in? %>
+<h3><%= link_to 'New Website', new_website_path %></h3>
+    <% end %>

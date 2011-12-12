@@ -1,0 +1,107 @@
+﻿a:link {color:#FFFFFF;}      /* unvisited link */
+a:visited {color:#777777;}  /* visited link */
+a:hover {color:#008080;}  /* mouse over link */
+a:active {color:#800000;}  /* selected link */ 
+
+
+body {
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #FFFFFF;
+	color: yellow;
+	}
+#title {
+	background-color: #0099CC;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%
+	color: yellow;
+	top: 10%;
+	min-height: 70px;
+	position: relative;
+	font-size: x-large;
+	font-weight: bold;
+}
+#sidebar {
+	background-color:#0099CC;
+	color:yellow;
+   	position:relative;
+   	min-height:800px;
+   	width:15%;
+   	bottom:0px;
+   	top: 0px;
+   	left: 0px;
+   	}
+#temp {
+	position:relative;
+}
+
+#main {
+	background-color:#006699;
+	color:yellow;
+	position:absolute;
+	min-height:300px;
+	min-width: 400px;
+	top:0px;
+	left:15%;
+	right:10%;
+	bottom:0px;
+}
+#footer{
+	background-color:#000F00;
+	color:yellow;
+	position:absolute;
+	min-height: 40px;
+
+	left:15%;
+	right:0px;
+	bottom:0px;
+
+	
+}
+#news{
+	background-color:#0000FF;
+	color:yellow;
+	position:absolute;
+	top:15%;
+	left:15%;
+	right:15%;
+	bottom:30%;
+
+}
+#login{
+	background-color: #CCCCCC;
+	color: yellow;
+	position: absolute;
+	min-height: 70px;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	left: 85%;
+	font-size: medium;
+	font-weight: normal;
+	
+
+}
+#blank{
+	background-color:#006699;
+	color:yellow;
+	position:absolute;
+	min-height:150px;
+	min-width: 75px;
+	top:50%;
+	left:90%;
+	right:0px;
+	bottom:0px;
+}
+#tools{
+	background-color:#CCCCCC;
+	color:yellow;
+	position:absolute;
+	min-height:50%;
+	min-width: 75px;
+	top:0px;
+	left:90%;
+	right:0px;
+}

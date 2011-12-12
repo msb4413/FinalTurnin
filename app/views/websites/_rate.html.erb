@@ -1,0 +1,23 @@
+<%= form_for(current_user.ratings.build(:website_id => @website.id )) do |f| %>
+  <div class="field">
+  	<% f.hidden_field :website_id %>
+  </div>
+  <div class="field">
+ 	<%= radio_button_tag(:score, "0") %>
+	<%= label_tag(:score, "0") %>
+	<%= radio_button_tag(:score, "1") %>
+	<%= label_tag(:score, "1") %>
+	<%= radio_button_tag(:score, "2") %>
+	<%= label_tag(:score, "2") %>
+	<%= radio_button_tag(:score, "3") %>
+	<%= label_tag(:score, "3") %>
+	<%= radio_button_tag(:score, "4") %>
+	<%= label_tag(:score, "4") %>
+	<%= radio_button_tag(:score, "5") %>
+	<%= label_tag(:score, "5") %>
+  </div>
+  <div class="actions">
+  	<%= f.submit "Submit" %>
+  </div>
+
+<% end %>

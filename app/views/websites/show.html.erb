@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+<% this_website(@website) %>
+
+<h1><%= @website.name %></h1>
+
+<h2><%= @website.url %></h2>
+
+<h2><%= @website.kind %></h2>
+
+<% if signed_in? %>
+
+<p>
+  <b>Rate:</b>
+<%= link_to 'Rate this site', createrate_path %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%= score(@website)%>/5
+</p>
+<% end %>
+<%= link_to 'Back', websites_path %>
+<%= link_to 'Home', root_path %>
+
